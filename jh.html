@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro programa</title>
+    <style>
+        body{
+            background-color: aqua;
+            color: blueviolet;
+            
+        }
+        
+    </style>
+
+</head>
+
+
+<body>
+    <h1>meu primeiro site</h1>
+    <p>jswdwhudfhweufhduweghfuihweufh</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('me fala um numero'))//usado para numero parseInt numeros que Nao sao 1.2 apenas 12
+        var n2 = Number.parseFloat(window.prompt('Certo, me fala outro numero'))//usado para numero parseFloat numeros que sao 1.2 e nao 12
+        var n3 = Number(window.prompt('mais um numero'))//number é um sistema mais automatico, ele ja decide se o numero é 1.2 ou 12
+        var resultadoFormula = n1 + n2 + n3
+        //window.alert('a soma deu ' + resultadoFormula)//pode-se usar desta forma ou com temple string ${}
+        window.alert(`pode se dizer que o resultado da soma foi: ${resultadoFormula}`)
+    </script>
+</body>
+</html>
