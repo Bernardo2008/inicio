@@ -1,0 +1,14 @@
+body{
+    color: rgb(45, 216, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+#eds{
+    font-size: 24px;
+}
+.sre{
+    font-size: 10px;
+}
+p.sre{
+    font-size: 15px;
+}
